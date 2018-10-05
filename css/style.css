@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+html, body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.jumbotron{
+    color: white;
+    background-color: #343A40;
+}
+span{
+    color: #6DCF80;
+}
+.padding{
+ padding: 2rem;
+}
+
+.syllabusLink, .connectLink{
+    padding-right: 10%;
+    border-top: 5px solid #6DCF80;
+    border-left: 5px solid #6DCF80;
+    border-bottom: 5px solid #6DCF80;
+}
+.connectLink{
+    border-right: 5px solid #6DCF80;;
+}
+
+.connect, Syllabus{
+    padding-top: 5rem;
+    font-size: 500%;
+    width: 30%;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.fa-facebook:hover,
+.fa-instagram:hover {
+    color: #d5d5d5;
+}
