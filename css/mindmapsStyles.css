@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+html, body{
+    font-family: 'Source Code Pro', monospace;
+    overflow-x: hidden;
+}
+.one-third{
+    width: 29%;
+     float: left;
+     margin: 2%;
+ }
+ #wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+#wrapper img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/* ------- Media Queries ----- */
+
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+    .one-third{
+        width: 48%;
+        margin: 1%;
+}
+
+@media (max-width: 576px) {
+    .one-third{
+        width: 98%;
+        margin: 1%;
+    }
+
+}
