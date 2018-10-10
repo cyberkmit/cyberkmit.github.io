@@ -3,6 +3,7 @@
 html, body{
     font-family: 'Source Code Pro', monospace;
     overflow-x: hidden;
+    background-color: #343A40;
 }
 .one-third{
     width: 29%;
